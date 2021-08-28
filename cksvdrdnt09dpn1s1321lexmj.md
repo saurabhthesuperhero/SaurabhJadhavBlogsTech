@@ -4,7 +4,7 @@ Hi, Guys Today we will learn about List and Dictionaries in python.
 
 Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
 
-## Lists
+# Lists
 
 List is an mutable data type in python, it is kind of array but supports not only homogenous list of datatypes but mixture too.
 
@@ -188,4 +188,29 @@ print(ls)
 ```
 []
 ```
+
+### Adding lists into one list
+
+```
+lt=["hello","dance","sheeran"] #creating a new list lt
+print(lt)
+print(ls)
+ls=[1,2,3,4] #creating new list ls
+newls=[ls,lt] # adding list as item to list
+print(newls)
+```
+
+##### Output
+
+```
+['hello', 'dance', 'sheeran'] #lt
+[1,2,3,4]  #ls
+[[1, 2, 3, 4], ['hello', 'dance', 'sheeran']] #newls
+```
+
+-------------------
+
+
+
+# Dictionary
 
