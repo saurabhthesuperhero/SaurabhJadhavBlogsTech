@@ -1,4 +1,4 @@
-## Numpy Basics for data science
+## Numpy Basics for Data Science
 
 # Numpy Basics for data science
 
