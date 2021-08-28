@@ -214,3 +214,136 @@ print(newls)
 
 # Dictionary
 
+**Dictionary** in Python is an unordered collection of data values, used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, Dictionary holds **key:value** pair. Key-value is provided in the dictionary to make it more optimized. 
+
+### Creating a dictionary
+
+The key value are separated by colon ":" and two key-value pair  are spearted by ","
+
+```
+dt={"name":"taylor","song":"blank space"}
+
+## Print dictionary
+print(dt)
+```
+
+##### Output
+
+```
+{'name': 'taylor', 'song': 'blank space'}
+```
+
+### Access single element
+
+access -> square bracket and pass key name
+
+```
+print(dt["name"])
+print(dt["song"])
+```
+
+##### Output
+
+```
+taylor
+blank space
+```
+
+### Adding values
+
+```
+dt.update({"Age":23})
+print(dt)
+```
+
+##### Output
+
+```
+{'name': 'taylor', 'song': 'blank space', 'Age': 23}
+```
+
+### Pop
+
+```
+dt.pop("song")
+print(dt)
+```
+
+##### Output
+
+```
+{'name': 'taylor', 'Age': 23}
+```
+
+###  Pop last item
+
+```
+dt.popitem()
+print(dt)
+```
+
+##### Output
+
+```
+{'name': 'taylor'}
+```
+
+### Clear
+
+```
+dt.clear()
+print(dt)
+```
+
+##### Output
+
+```
+{}
+```
+
+### Overwrite value with key
+
+```
+dt={"name":"taylor","song":"blank space"}
+
+dt.update({"name":"Ed sheeran"})
+print(dt)
+```
+
+##### Output
+
+```
+{'name': 'Ed sheeran', 'song': 'blank space'}
+```
+
+### Keys and Values printing
+
+```
+#Print keys
+
+print(dt.keys())
+```
+
+##### Output
+
+```
+dict_keys(['name', 'song'])
+```
+
+### Print values
+
+```
+print(dt.values())
+```
+
+##### Output
+
+```
+dict_values(['Ed sheeran', 'blank space'])
+```
+
+
+
+## Thank You!!!
+
+Pythoneers , lets meet in next Pyblog.
