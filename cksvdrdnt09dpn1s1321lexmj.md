@@ -42,5 +42,22 @@ print(ls[2])
 
 ``` 
 
+We can also use negative indexing:
+
+```
+print(ls[-1])
+``` 
+
+##### Output
+
+```
+'datatype'
+``` 
+
+
+PS: Inprocess
+
+
+
 
 
