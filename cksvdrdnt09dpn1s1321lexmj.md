@@ -54,9 +54,87 @@ print(ls[-1])
 'datatype'
 ``` 
 
+### Creation of another list
 
-PS: Inprocess
 
+```
+ls=[1,2,3,4,5]
+print(ls)
+
+``` 
+##### Output
+
+```
+[1, 2, 3, 4, 5]
+``` 
+
+
+
+### Print Specific index
+
+
+```
+print(ls[0]) #?-> 1
+print(ls[2])
+``` 
+##### Output
+
+```
+1
+3
+``` 
+
+### negative index
+
+```
+print(ls[-1]) 
+
+``` 
+##### Output
+
+```
+5
+``` 
+
+### Len function
+
+```
+print(len(ls))
+
+``` 
+##### Output
+
+```
+5
+``` 
+
+### List insert function
+
+```
+ls.insert(1,"python")
+print(ls)
+ls.insert(3,"kotlin")
+print(ls)
+``` 
+##### Output
+
+```
+[1, 'python', 2, 3, 4, 5]
+[1, 'python', 2, 'kotlin', 3, 4, 5] #after adding kotlin
+``` 
+
+# Append
+
+```
+ls.append("gorilla")
+print(ls)
+``` 
+
+##### Output
+
+```
+[1, 'python', 2, 'kotlin', 3, 4, 5, 'gorilla']
+``` 
 
 
 
