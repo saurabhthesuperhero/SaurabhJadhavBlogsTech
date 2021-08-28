@@ -18,14 +18,15 @@ In List index of first element starts from 0, list is used to store multiple var
 ls = [ "Saurabh", " hashnode", "Python", " datatype"]
 print(ls)
 
-``` 
+```
+
 ##### Output
 
 
 ```
 ['Saurabh', ' hashnode', 'Python', ' datatype']
 
-``` 
+```
 
 ### Accessing the list element
 
@@ -33,80 +34,79 @@ print(ls)
 ```
 print(ls[2])
 
-``` 
+```
+
 ##### Output
 
 
 ```
 'Python'
 
-``` 
+```
 
 We can also use negative indexing:
 
 ```
 print(ls[-1])
-``` 
+```
 
 ##### Output
 
 ```
 'datatype'
-``` 
+```
 
-### Creation of another list
-
+### Creating another list
 
 ```
 ls=[1,2,3,4,5]
-print(ls)
 
-``` 
+print(ls)
+```
+
 ##### Output
 
 ```
 [1, 2, 3, 4, 5]
-``` 
-
-
+```
 
 ### Print Specific index
-
 
 ```
 print(ls[0]) #?-> 1
 print(ls[2])
-``` 
+```
+
 ##### Output
 
 ```
 1
 3
-``` 
+```
 
-### negative index
+### Use Negative index
 
 ```
-print(ls[-1]) 
+print(ls[-1])  
+```
 
-``` 
 ##### Output
 
 ```
 5
-``` 
+```
 
 ### Len function
 
 ```
 print(len(ls))
+```
 
-``` 
 ##### Output
 
 ```
 5
-``` 
+```
 
 ### List insert function
 
@@ -115,27 +115,77 @@ ls.insert(1,"python")
 print(ls)
 ls.insert(3,"kotlin")
 print(ls)
-``` 
+```
+
 ##### Output
 
 ```
 [1, 'python', 2, 3, 4, 5]
-[1, 'python', 2, 'kotlin', 3, 4, 5] #after adding kotlin
-``` 
+[1, 'python', 2, 'kotlin', 3, 4, 5] ##after adding kotlin
+```
 
-# Append
+### Append function
 
 ```
 ls.append("gorilla")
 print(ls)
-``` 
+```
 
 ##### Output
 
 ```
 [1, 'python', 2, 'kotlin', 3, 4, 5, 'gorilla']
-``` 
+```
 
+### Pop operation
 
+```
+ls.pop()
+print(ls)
+```
 
+##### Output
+
+```
+[1, 'python', 2, 'kotlin', 3, 4, 5]
+```
+
+### Pop specific
+
+```
+ls.pop(2)
+print(ls)
+```
+
+##### Output
+
+```
+[1, 'python', 'kotlin', 3, 4, 5]
+```
+
+### Remove
+
+```
+ls.remove(3)
+print(ls)
+```
+
+##### Output
+
+```
+[1, 'python', 'kotlin',4, 5]
+```
+
+### Clear 
+
+```
+ls.clear()
+print(ls)
+```
+
+##### Output
+
+```
+[]
+```
 
