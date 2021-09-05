@@ -1,4 +1,4 @@
-## Instance and Methods in Python Object Oriented Programming
+## Instance and Methods in Class - Object Oriented Programming in Python
 
 ## Instance and Methods in Python Object Oriented Programming
 
