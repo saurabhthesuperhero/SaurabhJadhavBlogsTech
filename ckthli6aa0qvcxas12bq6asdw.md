@@ -109,9 +109,7 @@ You can add any data which you want to display here, now create another fragment
 
 This will be used as adapter for Fragments such  as this will help to change fragments giving counts of fragments, as adapter works.
 
-- Add private val myContext: Context,
-      fm: FragmentManager?,
-      var totalTabs: Int  to Constructor
+- Add private val myContext: Context, fm: FragmentManager?, var totalTabs: Int  to Constructor
 - In getItem add fragment to position which you want to show, 0 means first tab , 1 means 2nd tab and so on. 
 
 ```kotlin
