@@ -55,7 +55,7 @@ Since the `Student` class is empty, you place the `pass` statement in its body t
 
 So lets take example by code.
 
-This is how we normally can assign attribute to class object withought defining variable in class definantion.
+This is how we normally can assign attribute to class object withought defining variable in class definition.
 
 ```
 class class2:
@@ -153,20 +153,20 @@ class Student(Person):
         self.year=year  
 ```
 
-Notice the super() line here.
+Notice the `super()` line here.
 
 Why we added this?
 
-When We add `__init__` in child class it overrrides the parent class's `__init__` .
+When We add `__init__` in child class it overrides the parent class's `__init__` .
 
-So first we added all parent class constructor arguments and child class arguments in child class constructore like this:
+So first we added all parent class constructor arguments and child class arguments in child class constructor like this:
 
 ```
   def __init__(self,rollno,course,year,
     name,age,gender):
 ```
 
-Now we call super() method with init and pass arguments for parent class constructore like this:
+Now we call `super()` method with `__init__` and pass arguments for parent class constructor like this:
 
 ```
 super().__init__(name,age,gender)
@@ -262,7 +262,7 @@ My age is  2 and my gender is  female
 
 ### Multilevel inheritance
 
-We will create this heirarchy:
+We will create this hierarchy:
 
 ```
 class Person():
@@ -327,4 +327,4 @@ My age is:  2 and my gender is:  female
 I m in  2 year of  laxmichitfund(21 dinme double) course where my roll no is 1
 ```
 
-So that was about it.
+So that was about it, Thank you for reading have a nice day.
